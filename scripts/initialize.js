@@ -17,6 +17,6 @@ linkEl.setAttribute('href', `styles/dark.css`);
 // Set dark theme
 const prefersDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
 if (prefersDarkTheme) {
-    preferedTheme = Themes.dark;
-    document.head.appendChild(linkEl);
+    // preferedTheme = Themes.dark;
+    // document.head.appendChild(linkEl);
 }
