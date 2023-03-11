@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
     min-height: 100%;
 }
 
@@ -15,4 +15,4 @@ body {
 
 .wrapper-xl {
     max-width: 1440px;
-}
+} */
