@@ -1,4 +1,6 @@
 :root {
-    --bg-color-main: #111111;
-    --bg-color-header: #253544;
+    --bgc-col: #242020;
+    --bgc-hover: #626264;
+    --filters-color: #2e2424;
+    --font-color:#fff;
 }
