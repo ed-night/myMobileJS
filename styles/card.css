@@ -1,37 +1,36 @@
 .card-parent { 
-    display: flex;
-    align-items: center;
-    aspect-ratio: 1/2;
     border: 1px solid #C3C2C8;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .card {
-    width: 95%;
-    height: 95%;
-    margin: 0 auto;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    height: 100%;
 }
 
 .img {
-    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 
 .about {
-    flex: 1;
+    /* flex: 1; */
+    margin-bottom: 30px;
 }
 
 .about h5 {
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .img img {
-    width: 100%;
+    width: 75%;
 }
 
 .rating {
@@ -47,7 +46,7 @@
 }
 
 .buy p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
