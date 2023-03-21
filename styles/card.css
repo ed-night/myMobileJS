@@ -1,11 +1,10 @@
 .card-parent { 
-    border: 1px solid #C3C2C8;
     border-radius: 10px;
     padding: 10px;
+    background-color: var(--bgc-card);
 }
 
 .card {
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -14,6 +13,7 @@
 
 .img {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -31,6 +31,7 @@
 
 .img img {
     width: 75%;
+    /* width: 100px; */
 }
 
 .rating {
