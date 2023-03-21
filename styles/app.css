@@ -35,6 +35,7 @@ header {
     display: flex;
     align-items: center;
     z-index: 2;
+    border-bottom: 1px solid rgba(126, 126, 126, 0.5);
 }
 
 .inner-header {
@@ -44,7 +45,9 @@ header {
     margin: 0 auto;  
     display: flex; 
     align-items: center;
+    /* background-color: #1b53c0; */
     justify-content: space-between;
+    /* border-bottom: 1px solid var(--filters-color); */
 }
 
 .logo {
@@ -183,7 +186,7 @@ header {
 
 .input-tr {
     transform: translateX(27px);
-    transition: 2s;
+    transition: 300ms;
 }
 
 .checkbox-theme {
@@ -206,7 +209,7 @@ header {
 
 .klor {
     position: absolute;
-    transition: 2s;
+    transition: 300ms;
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -499,7 +502,7 @@ footer {
         top: 80px;
         background-color: var(--bgc-col);
         left: -350px;
-        transition: 2s;
+        transition: 500ms;
     }
 
     .parent-filters.bacel {
@@ -508,7 +511,7 @@ footer {
         width: 300px;
         height: 100%;
         transform: translateX(350px);
-        transition: 2s;
+        transition: 500ms;
     }
 
     .esc {
